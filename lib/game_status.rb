@@ -74,6 +74,7 @@ def winner(board)
   winning_array = []
 
   if won?(board) == false
+    binding.pry
     return nil
   elsif won?(board) != false
     winning_array = won?(board)
